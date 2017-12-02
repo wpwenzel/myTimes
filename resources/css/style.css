@@ -1,0 +1,24 @@
+/*Header Section*/
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+/*Logo Section*/
+.logo {
+  color: MediumAquamarine;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo p {
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+/*Nav Section*/

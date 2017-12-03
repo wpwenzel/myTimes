@@ -64,3 +64,15 @@ nav span {
 .image {
   border: 1px solid black;
 }
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}

@@ -51,3 +51,16 @@ nav span {
   padding: 80px;
   background-color: white;
 }
+
+.column {
+  border: 1px solid black;
+  display: inline-flex;
+}
+
+.story {
+  border: 1px solid black;
+}
+
+.image {
+  border: 1px solid black;
+}

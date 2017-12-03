@@ -11,6 +11,7 @@ header {
   position: fixed;
   z-index: 1;
   border-bottom: 1px solid black;
+  background-color: white;
 }
 
 /*Logo Section*/
@@ -47,4 +48,6 @@ nav span {
 .content {
   position: relative;
   display: flex;
+  padding: 80px;
+  background-color: white;
 }

@@ -49,7 +49,7 @@ nav span {
   position: relative;
   display: flex;
   top: 80px;
-  padding-top: 80px;
+  padding-top: 30px;
   background-color: white;
 }
 
@@ -57,6 +57,7 @@ nav span {
   border: 1px solid black;
   display: inline-flex;
   flex-direction: column;
+  padding-right: 30px
 }
 
 .story {

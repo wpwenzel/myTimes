@@ -45,6 +45,6 @@ nav span {
 
 /*content section*/
 .content {
-  position: fixed;
+  position: relative;
   display: flex;
 }

@@ -66,6 +66,10 @@ nav span {
   border: 1px solid black;
 }
 
+.list {
+  border: 1px solid black;
+}
+
 .column.large {
   width: 630px;
 }

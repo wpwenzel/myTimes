@@ -55,6 +55,7 @@ nav span {
 .column {
   border: 1px solid black;
   display: inline-flex;
+  flex-direction: column;
 }
 
 .story {

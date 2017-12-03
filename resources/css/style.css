@@ -48,7 +48,8 @@ nav span {
 .content {
   position: relative;
   display: flex;
-  padding: 80px;
+  top: 80px;
+  padding-top: 80px;
   background-color: white;
 }
 

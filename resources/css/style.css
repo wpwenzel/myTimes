@@ -20,7 +20,7 @@ header {
   padding-left: 30px;
 }
 
-.logo p {
+.logo span {
   flex-wrap: wrap;
   padding-left: 10px;
 }

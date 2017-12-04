@@ -82,14 +82,12 @@ nav span {
   background-image: url("C:/Users/wwenzel/Documents/projects/myTimes/resources/images/img-story-2-fallseason.png");
   padding: 50px;
   width: 200px;
-  margin: 5px;
 }
 
 .image.three {
   background-image: url("C:/Users/wwenzel/Documents/projects/myTimes/resources/images/img-story-3-hipstercamera.png");
   padding: 50px;
   width: 200px;
-  margin: 5px;
 }
 
 .image.four {
@@ -117,7 +115,6 @@ nav span {
 
 .partial.story.one, .partial.story.two {
   width: 300px;
-  margin: 5px;
 }
 .story p {
   font-family: Georgia;
@@ -128,4 +125,16 @@ nav span {
 .main {
   display: flex;
   flex-direction: column;
+}
+
+#columnLargeSectionTwo {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 630px;
+}
+
+#sub {
+  display:flex;
+  flex-flow: column wrap;
 }

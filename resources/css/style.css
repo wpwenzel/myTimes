@@ -54,9 +54,9 @@ nav span {
 
 .column {
   border: 1px solid black;
-  display: inline-flex;
-  flex-direction: column;
-  padding-right: 30px
+  display: flex;
+  padding-right: 30px;
+  flex-wrap: wrap;
 }
 
 .story {
@@ -65,7 +65,7 @@ nav span {
 
 .image {
   border: 1px solid black;
-  display: flex;
+  display: inline-flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -75,18 +75,26 @@ nav span {
 .image.one {
   background-image: url("C:/Users/wwenzel/Documents/projects/myTimes/resources/images/img-story-main.png");
   font-size: 40px;
+  padding: 50px;
 }
 
 .image.two {
   background-image: url("C:/Users/wwenzel/Documents/projects/myTimes/resources/images/img-story-2-fallseason.png");
+  padding: 50px;
+  width: 200px;
+  margin: 5px;
 }
 
 .image.three {
   background-image: url("C:/Users/wwenzel/Documents/projects/myTimes/resources/images/img-story-3-hipstercamera.png");
+  padding: 50px;
+  width: 200px;
+  margin: 5px;
 }
 
 .image.four {
-  background-image: url("C:/Users/wwenzel/Documents/projects/myTimes/resources/images/img-story-1.png")
+  background-image: url("C:/Users/wwenzel/Documents/projects/myTimes/resources/images/img-story-1.png");
+  padding: 50px;
 }
 
 .list {
@@ -99,14 +107,25 @@ nav span {
 
 .column.medium {
   width: 300px;
+  flex-direction: column;
 }
 
 .column.small {
   width: 240px;
+  flex-direction: column;
 }
 
+.partial.story.one, .partial.story.two {
+  width: 300px;
+  margin: 5px;
+}
 .story p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
